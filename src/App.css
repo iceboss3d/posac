@@ -1,0 +1,118 @@
+.main-button-card {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-button {
+  width: 100%;
+}
+.main-button-blue {
+  width: 100%;
+  height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2F80ED;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-button-red {
+  width: 100%;
+  height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #EB5757;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-button-brown {
+  width: 100%;
+  height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #8C6E10;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-button-bal {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bal-cash {
+  width: 50%;
+  height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2D9CDB;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bal-bank {
+  width: 45%;
+  height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #F2994A;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bal-title {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #F2F2F2; 
+}
+.bal-text {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #F2F2F2;
+}
+.main-button-text {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #F2F2F2;
+}
+.user-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.user-time-user {
+  font-size: 24px;
+  color: #4F4F4F;
+}
+.user-time-time {
+  font-size: 24px;
+  color: #828282;
+}
+.tranModule {
+  width: 100%;
+  height: 40px;
+  border-bottom: 0px solid #828282;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.tranStatus0 {
+  color: red;
+}
+.tranStatus1 {
+  color: green;
+}
